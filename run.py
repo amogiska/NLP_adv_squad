@@ -50,7 +50,7 @@ def main():
     training_args, args = argp.parse_args_into_dataclasses()
 
     # Dataset selection
-    adv_squad_path = os.path.join(os.getcwd(), 'adv_squad.json')
+    adv_squad_path = os.path.join(os.getcwd(), 'test.json')
 
     if args.dataset == 'combined_squad_adv_squad':
         squad_dataset = datasets.load_dataset('squad')

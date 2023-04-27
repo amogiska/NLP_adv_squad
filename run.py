@@ -50,14 +50,25 @@ def main():
     training_args, args = argp.parse_args_into_dataclasses()
 
     # Dataset selection
-    if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
+    adv_squad_path = os.path.join(os.getcwd(), 'adv_squad.json')
+
+    if args.dataset == 'combined_squad_adv_squad':
+        squad_dataset = datasets.load_dataset('squad')
+        adv_squad_dataset = datasets.load_dataset('json', data_files=adv_squad_path)  
+    
+        combined_train_dataset = datasets.concatenate_datasets([squad_dataset['train'], adv_squad_dataset['train']])
+        combined_eval_dataset = datasets.concatenate_datasets([squad_dataset['validation'], adv_squad_dataset['validation']])
+    
+        dataset = {'train': combined_train_dataset, 'validation': combined_eval_dataset}
+        eval_split = 'validation'
+    elif args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
         dataset_id = None
         # Load from local json/jsonl file
         dataset = datasets.load_dataset('json', data_files=args.dataset)
         # By default, the "json" dataset loader places all examples in the train split,
         # so if we want to use a jsonl file for evaluation we need to get the "train" split
         # from the loaded dataset
-        eval_split = 'train'
+        eval_split = 'train'    
     else:
         default_datasets = {'qa': ('squad',), 'nli': ('snli',)}
         dataset_id = tuple(args.dataset.split(':')) if args.dataset is not None else \

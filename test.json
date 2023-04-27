@@ -1,0 +1,640 @@
+{
+    "version": "1.1",
+    "data": [
+      {
+        "title": "Adv_SQuAD",
+        "paragraphs": [
+          {
+            "context": "The population of Australia is heavily concentrated on the eastern seaboard, where the largest cities, Sydney and Melbourne, are located.",
+            "qas": [
+              {
+                "id": "00001",
+                "question": "Which major cities in Australia have the highest population density?",
+                "answers": [
+                  {
+                    "answer_start": 97,
+                    "text": "Sydney and Melbourne"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Albert Einstein developed the theory of relativity, which fundamentally changed our understanding of space, time, and gravity.",
+            "qas": [
+              {
+                "id": "00002",
+                "question": "Whose work drastically altered the perception of space, time, and gravity?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Albert Einstein"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The French Revolution began in 1789 and led to significant political, social, and economic changes in France, ultimately resulting in the rise of Napoleon Bonaparte.",
+            "qas": [
+              {
+                "id": "00003",
+                "question": "Which historical event paved the way for Napoleon Bonaparte's ascent to power?",
+                "answers": [
+                  {
+                    "answer_start": 4,
+                    "text": "The French Revolution"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Great Barrier Reef, located off the coast of Queensland in northeastern Australia, is the largest coral reef system in the world, comprising over 2,900 individual reefs and 900 islands.",
+            "qas": [
+              {
+                "id": "00004",
+                "question": "Where can one find the world's most extensive coral reef system?",
+                "answers": [
+                  {
+                    "answer_start": 38,
+                    "text": "off the coast of Queensland in northeastern Australia"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Although Pluto was once classified as a planet, it was redefined as a 'dwarf planet' by the International Astronomical Union in 2006 due to its smaller size and irregular orbit.",
+            "qas": [
+              {
+                "id": "00005",
+                "question": "Why was Pluto's planetary status changed in 2006?",
+                "answers": [
+                  {
+                    "answer_start": 94,
+                    "text": "due to its smaller size and irregular orbit"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Amazon Rainforest, also known as Amazonia, is the world's largest tropical rainforest, covering an area of approximately 6.7 million square kilometers.",
+            "qas": [
+              {
+                "id": "00006",
+                "question": "What alternative name is the Amazon Rainforest known by?",
+                "answers": [
+                  {
+                    "answer_start": 28,
+                    "text": "Amazonia"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Industrial Revolution was a period of major industrialization and innovation that began in Great Britain and later spread to other parts of the world.",
+            "qas": [
+              {
+                "id": "00007",
+                "question": "Where did the Industrial Revolution originate?",
+                "answers": [
+                  {
+                    "answer_start": 80,
+                    "text": "Great Britain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Grand Canyon, a steep-sided canyon carved by the Colorado River, is located in the state of Arizona in the United States and is considered one of the world's most spectacular natural landmarks.",
+            "qas": [
+              {
+                "id": "00008",
+                "question": "Which river is responsible for carving the Grand Canyon?",
+                "answers": [
+                  {
+                    "answer_start": 42,
+                    "text": "the Colorado River"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Mona Lisa, one of the most famous paintings in the world, was created by Leonardo da Vinci during the Italian Renaissance.",
+            "qas": [
+              {
+                "id": "00009",
+                "question": "Who painted the Mona Lisa?",
+                "answers": [
+                  {
+                    "answer_start": 63,
+                    "text": "Leonardo da Vinci"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Declaration of Independence, signed in 1776, declared the thirteen American colonies independent from British rule and paved the way for the formation of the United States of America.",
+            "qas": [
+              {
+                "id": "00010",
+                "question": "What document declared the independence of the thirteen American colonies?",
+                "answers": [
+                  {
+                    "answer_start": 4,
+                    "text": "The Declaration of Independence"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Eiffel Tower, a wrought-iron lattice tower located in Paris, France, was designed by Gustave Eiffel and built for the 1889 World's Fair.",
+            "qas": [
+              {
+                "id": "00011",
+                "question": "Who designed and built the Eiffel Tower?",
+                "answers": [
+                  {
+                    "answer_start": 73,
+                    "text": "Gustave Eiffel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Mayan civilization, located in present-day Mexico and Central America, was known for its sophisticated writing system, architecture, and mathematical achievements.",
+            "qas": [
+              {
+                "id": "00012",
+                "question": "What is the Mayan civilization known for?",
+                "answers": [
+                  {
+                    "answer_start": 68,
+                    "text": "sophisticated writing system, architecture, and mathematical achievements"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "In 2016, the Chicago Cubs won their first World Series championship in 108 years.",
+            "qas": [
+              {
+                "id": "00013",
+                "question": "Which Major League Baseball team ended their 108-year World Series drought in 2016?",
+                "answers": [
+                  {
+                    "answer_start": 10,
+                    "text": "the Chicago Cubs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Great Barrier Reef, the world's largest coral reef system, is located off the coast of northeastern Australia.",
+            "qas": [
+              {
+                "id": "00014",
+                "question": "Where is the largest coral reef system in the world located?",
+                "answers": [
+                  {
+                    "answer_start": 64,
+                    "text": "off the coast of northeastern Australia"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Mona Lisa is a famous painting created by the Italian artist Leonardo da Vinci in the 16th century.",
+            "qas": [
+              {
+                "id": "00015",
+                "question": "Which famous painting was created by Leonardo da Vinci in the 16th century?",
+                "answers": [
+                  {
+                    "answer_start": 4,
+                    "text": "The Mona Lisa"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Eiffel Tower is a famous landmark located in Paris, France, and is one of the world's most visited tourist attractions.",
+            "qas": [
+              {
+                "id": "00016",
+                "question": "Where is the Eiffel Tower located?",
+                "answers": [
+                  {
+                    "answer_start": 43,
+                    "text": "Paris, France"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The United States Constitution is the supreme law of the land and outlines the structure of the federal government and the rights of its citizens.",
+            "qas": [
+              {
+                "id": "00017",
+                "question": "What is the United States Constitution?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The United States Constitution is the supreme law of the land and outlines the structure of the federal government and the rights of its citizens"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Harry Potter series, written by J.K. Rowling, follows the adventures of a young wizard and his friends at the Hogwarts School of Witchcraft and Wizardry.",
+            "qas": [
+              {
+                "id": "00018",
+                "question": "What is the Harry Potter series about?",
+                "answers": [
+                  {
+                    "answer_start": 52,
+                    "text": "the adventures of a young wizard and his friends at the Hogwarts School of Witchcraft and Wizardry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Great Wall of China, one of the world's most iconic landmarks, is a series of fortifications built along the northern borders of China to protect against invaders.",
+            "qas": [
+              {
+                "id": "00019",
+                "question": "What is the Great Wall of China?",
+                "answers": [
+                  {
+                    "answer_start": 60,
+                    "text": "a series of fortifications built along the northern borders of China to protect against invaders"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Mona Lisa, a portrait painted by Leonardo da Vinci, is widely regarded as one of the world's most famous and valuable pieces of art.",
+            "qas": [
+              {
+                "id": "00020",
+                "question": "What is the Mona Lisa?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Mona Lisa, a portrait painted by Leonardo da Vinci, is widely regarded as one of the world's most famous and valuable pieces of art"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Statue of Liberty, a symbol of freedom and democracy, was gifted to the United States by France in 1886.",
+            "qas": [
+              {
+                "id": "00021",
+                "question": "What is the Statue of Liberty?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Statue of Liberty, a symbol of freedom and democracy, was gifted to the United States by France in 1886"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Great Sphinx of Giza, a large limestone statue of a reclining sphinx, is one of the oldest and largest monuments in the world.",
+            "qas": [
+              {
+                "id": "00022",
+                "question": "What is the Great Sphinx of Giza?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Great Sphinx of Giza, a large limestone statue of a reclining sphinx, is one of the oldest and largest monuments in the world."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Vincent van Gogh, a Dutch post-Impressionist painter, is known for his influential works such as 'Starry Night' and 'Sunflowers.'",
+            "qas": [
+              {
+                "id": "00023",
+                "question": "What is Vincent van Gogh known for?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Vincent van Gogh, a Dutch post-Impressionist painter, is known for his influential works such as 'Starry Night' and 'Sunflowers.'"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Mount Everest, located in the Himalayas, is the Earth's highest mountain above sea level.",
+            "qas": [
+              {
+                "id": "00024",
+                "question": "What is the Earth's highest mountain above sea level?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Mount Everest, located in the Himalayas, is the Earth's highest mountain above sea level."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in the United States, located in the state of Arizona.",
+            "qas": [
+              {
+                "id": "00025",
+                "question": "In which state is the Grand Canyon located?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Arizona"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Colosseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the center of Rome, Italy.",
+            "qas": [
+              {
+                "id": "00026",
+                "question": "Where is the Colosseum located?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Rome, Italy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The human brain is the central organ of the human nervous system and is responsible for controlling various functions and processes.",
+            "qas": [
+              {
+                "id": "00027",
+                "question": "What is the primary function of the human brain?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The human brain is the central organ of the human nervous system and is responsible for controlling various functions and processes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities.",
+            "qas": [
+              {
+                "id": "00029",
+                "question": "What is the main purpose of photosynthesis?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "to convert light energy into chemical energy that can later be released to fuel the organism's activities"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions, extending from the Arctic Ocean in the north to the Southern Ocean in the south.",
+            "qas": [
+              {
+                "id": "00030",
+                "question": "Which is the largest ocean on Earth?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Pacific Ocean"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Pyramids of Giza, located outside Cairo, Egypt, are one of the most famous and well-preserved examples of ancient Egyptian architecture.",
+            "qas": [
+              {
+                "id": "00031",
+                "question": "Where are the Pyramids of Giza located?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "outside Cairo, Egypt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Sir Isaac Newton, an English mathematician, physicist, and astronomer, is widely recognized as one of the most influential scientists of all time, particularly for his development of the laws of motion and universal gravitation.",
+            "qas": [
+              {
+                "id": "00032",
+                "question": "What is Sir Isaac Newton famous for?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "his development of the laws of motion and universal gravitation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Amazon River, which flows through South America, is the largest river in the world by discharge volume of water.",
+            "qas": [
+              {
+                "id": "00033",
+                "question": "Which river is the largest in the world by discharge volume of water?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Amazon River"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Shakespeare, an English playwright, poet, and actor, is widely regarded as the greatest writer in the English language and the world's greatest dramatist.",
+            "qas": [
+              {
+                "id": "00034",
+                "question": "What is Shakespeare known for?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "being the greatest writer in the English language and the world's greatest dramatist"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Nile River, which flows through northeastern Africa, is the longest river in the world.",
+            "qas": [
+              {
+                "id": "00035",
+                "question": "Which river is the longest in the world?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The Nile River"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "supplying oxygen and nutrients to the body's cells while removing waste products such as carbon dioxide.",
+            "qas": [
+              {
+                "id": "00036",
+                "question": "What is the main function of the human heart?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "pumps blood through the circulatory system, supplying oxygen and nutrients to the body's cells while removing waste products such as carbon dioxide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Thomas Edison was an American inventor and businessman who developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures.",
+            "qas": [
+              {
+                "id": "00037",
+                "question": "What is Thomas Edison known for?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "developing many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor, a gift from France to the United States.",
+            "qas": [
+              {
+                "id": "00038",
+                "question": "Where is the Statue of Liberty located?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "on Liberty Island in New York Harbor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Albert Einstein, a theoretical physicist, is best known for his theory of relativity, which includes the mass-energy equivalence formula, E=mc^2.",
+            "qas": [
+              {
+                "id": "00039",
+                "question": "What is Albert Einstein famous for?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "his theory of relativity, which includes the mass-energy equivalence formula, E=mc^2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France, named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+            "qas": [
+              {
+                "id": "00040",
+                "question": "Where is the Eiffel Tower located?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "on the Champ de Mars in Paris, France"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Mona Lisa is a portrait painting by Italian artist Leonardo da Vinci, one of the most famous and recognizable works of art in the world.",
+            "qas": [
+              {
+                "id": "00041",
+                "question": "Who painted the Mona Lisa?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "Leonardo da Vinci"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The United Nations is an international organization founded in 1945 to promote peace, security, and cooperation among its member states.",
+            "qas": [
+              {
+                "id": "00042",
+                "question": "When was the United Nations founded?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "1945"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower. Constructed from 1887 to 1889 as the entrance to the 1889 World's Fair, it was initially criticized by some of France's leading artists and intellectuals for its design. However, it has since become a global cultural icon and is one of the most recognizable structures in the world.",
+            "qas": [
+              {
+                "id": "00043",
+                "question": "Which event prompted the construction of the Eiffel Tower, and who was it named after?",
+                "answers": [
+                  {
+                    "answer_start": 0,
+                    "text": "The construction of the Eiffel Tower was prompted by the 1889 World's Fair, and it was named after the engineer Gustave Eiffel."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
